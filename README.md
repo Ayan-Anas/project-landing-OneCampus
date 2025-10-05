@@ -3,7 +3,7 @@
 Students miss opportunities because campus info is scattered and noisy. Campus One unifies updates, deadlines, and actions in one calm place—so nothing slips.
 
 **Live site:** https://<your-deploy-url>  
-**Repo:** https://github.com/Ayan-Anas/project-landing-Ayan
+**Repo:** https://github.com/Ayan-Anas/project-landing-OneCampus
 
 ## Value
 - One clear feed of what matters

@@ -10,13 +10,11 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
+import { Users, MessageSquare, HeartHandshake } from "lucide-react";
 
 import studentsEvents from "@/assets/students-events.png";
 import leadersDashboard from "@/assets/leaders-dashboard.png";
 import adminWorkflow from "@/assets/admin-workflow.png";
-import communityChat from "@/assets/community-chat.png";
-import successAdvising from "@/assets/success-advising.png";
-import communicationsComposer from "@/assets/communications-composer.png";
 
 const Index = () => {
   return (
@@ -79,9 +77,7 @@ const Index = () => {
           "Real-time chat for quick questions and coordination",
           "Browse groups by interest—clubs, sports, academics, identity",
         ]}
-        imageSrc={communityChat}
-        imageAlt="Campus directory and messaging interface"
-        imageOnRight={true}
+        icon={<Users className="w-8 h-8 text-primary" />}
         bgLight={true}
       />
 
@@ -94,8 +90,7 @@ const Index = () => {
           "Pathways and to-dos keep students on track to graduate",
           "Showcase involvement in a verified co-curricular transcript",
         ]}
-        imageSrc={successAdvising}
-        imageAlt="Student success interface with advising and to-do features"
+        icon={<HeartHandshake className="w-8 h-8 text-primary" />}
         bgLight={false}
       />
 
@@ -107,9 +102,7 @@ const Index = () => {
           "Branded templates maintain your institution's voice",
           "Critical alerts get through when it matters most",
         ]}
-        imageSrc={communicationsComposer}
-        imageAlt="Message composer showing targeted communication options"
-        imageOnRight={true}
+        icon={<MessageSquare className="w-8 h-8 text-primary" />}
         bgLight={true}
       />
 

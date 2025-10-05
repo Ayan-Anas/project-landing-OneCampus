@@ -12,8 +12,8 @@ const FinalCTA = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" variant="secondary" asChild className="text-base">
-            <a href="https://demo.campusone.app" target="_blank" rel="noopener noreferrer">
-              See the Demo
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFdMcZj0WlREIG9v02uu02cgMS9aGn0ozlg5-DFKBXKfPmRA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+              Request a Demo
             </a>
           </Button>
           <Button size="lg" variant="outline" asChild className="text-base bg-white/10 border-white/20 hover:bg-white/20 text-white">

@@ -56,8 +56,8 @@ const Navigation = () => {
               </a>
             ))}
             <Button asChild>
-              <a href="https://demo.campusone.app" target="_blank" rel="noopener noreferrer">
-                See the Demo
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFdMcZj0WlREIG9v02uu02cgMS9aGn0ozlg5-DFKBXKfPmRA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+                Request a Demo
               </a>
             </Button>
           </div>
@@ -86,8 +86,8 @@ const Navigation = () => {
               </a>
             ))}
             <Button asChild className="w-full">
-              <a href="https://demo.campusone.app" target="_blank" rel="noopener noreferrer">
-                See the Demo
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfFdMcZj0WlREIG9v02uu02cgMS9aGn0ozlg5-DFKBXKfPmRA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+                Request a Demo
               </a>
             </Button>
           </div>
